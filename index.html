@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OPTIMIZATION TECHNIQUES | Your Complete Study Hub - JMA2501</title>
+  <meta name="description" content="Complete college study website for Optimization Techniques (JMA2501), Regulation 2023. Unit lecture notes, question bank PDFs, and study resources.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=10.0">
+</head>
+<body>
+
+  <!-- Dark Navy Navigation Bar -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand" aria-label="Optimization Techniques Home">
+        <div class="brand-badge">OT</div>
+        <div class="brand-text">
+          <span class="brand-title">OPTIMIZATION TECHNIQUES</span>
+          <span class="brand-meta">JMA2501 • REGULATION 2023</span>
+        </div>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <div class="hamburger-icon">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="units.html" class="nav-link">Units &amp; Chapters</a>
+        <a href="notes.html" class="nav-link">Notes</a>
+        <a href="question-bank.html" class="nav-link">Question Bank</a>
+        <a href="all-the-best.html" class="nav-link">All the Best</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section (Navy + Blue + Teal Theme) -->
+  <section class="hero-section">
+    <div class="container hero-content">
+      <div class="hero-badge-group">
+        <span class="hero-pill">JMA2501 • Regulation 2023 • Semester V</span>
+      </div>
+      <h1 class="hero-title">OPTIMIZATION TECHNIQUES</h1>
+      <p class="hero-subtitle">Your Complete Study Hub</p>
+      <p class="hero-description">
+        Notes, question banks and study resources for your Optimization Techniques preparation.
+      </p>
+      <div class="hero-actions">
+        <a href="units.html" class="btn btn-primary btn-lg" id="btnExploreUnits">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          Explore Units
+        </a>
+        <a href="notes.html" class="btn btn-white btn-lg" id="btnViewNotes">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+          View Notes
+        </a>
+        <a href="question-bank.html" class="btn btn-outline-white btn-lg" id="btnQuestionBank">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5.5L19 7.5V19a2 2 0 0 1-2 2z"></path></svg>
+          Question Bank
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prominent Search Bar (Below Hero Section) -->
+  <section class="search-section">
+    <div class="container">
+      <div class="search-header">
+        <h2 class="search-heading">What are you looking for?</h2>
+        <p style="color: #64748B; font-size: 0.95rem;">Quickly find lecture notes, question banks, or curriculum units</p>
+      </div>
+      <div class="search-box-wrapper">
+        <div class="search-input-group">
+          <span class="search-icon" aria-hidden="true">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          </span>
+          <input 
+            type="text" 
+            id="siteSearchInput" 
+            class="search-input" 
+            placeholder="Search notes, units, question banks..." 
+            aria-label="Search study resources"
+            autocomplete="off"
+          >
+        </div>
+        <div class="search-results-dropdown" id="searchResultsDropdown"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Welcome & Feature Section -->
+  <main class="section">
+    <div class="container">
+
+      <!-- Course Information Cards -->
+      <div class="course-info-grid">
+        <div class="info-card">
+          <span class="info-card-label">Course Code</span>
+          <div class="info-card-value">JMA2501</div>
+        </div>
+        <div class="info-card">
+          <span class="info-card-label">Regulation</span>
+          <div class="info-card-value">2023</div>
+        </div>
+        <div class="info-card">
+          <span class="info-card-label">Semester</span>
+          <div class="info-card-value">Semester V</div>
+        </div>
+        <div class="info-card">
+          <span class="info-card-label">Total Units</span>
+          <div class="info-card-value">5 Units</div>
+        </div>
+      </div>
+
+      <!-- Feature Section Header -->
+      <div class="section-header">
+        <span class="section-tag">Curated Study Materials</span>
+        <h2 class="section-title">EVERYTHING YOU NEED TO EXCEL</h2>
+        <p class="section-subtitle">
+          Verified academic resources organized unit-by-unit for optimal examination preparation.
+        </p>
+      </div>
+
+      <!-- 4 Essential Feature Cards -->
+      <div class="feature-grid-4">
+        
+        <!-- Feature 1: Notes -->
+        <div class="feature-card">
+          <div class="feature-icon-box">📚</div>
+          <h3 class="feature-title">Notes</h3>
+          <p class="feature-text">Complete unit-wise lecture notes.</p>
+          <a href="notes.html" class="feature-action-link" id="linkFeatureNotes">Open Notes &rarr;</a>
+        </div>
+
+        <!-- Feature 2: Question Bank -->
+        <div class="feature-card">
+          <div class="feature-icon-box">📝</div>
+          <h3 class="feature-title">Question Bank</h3>
+          <p class="feature-text">Unit-wise Question Bank PDFs.</p>
+          <a href="question-bank.html" class="feature-action-link" id="linkFeatureQB">View Question Banks &rarr;</a>
+        </div>
+
+        <!-- Feature 3: Exam Preparation -->
+        <div class="feature-card">
+          <div class="feature-icon-box">🎯</div>
+          <h3 class="feature-title">Exam Preparation</h3>
+          <p class="feature-text">Organize your preparation unit by unit.</p>
+          <a href="all-the-best.html" class="feature-action-link" id="linkFeatureExamPrep">Exam Strategy &rarr;</a>
+        </div>
+
+        <!-- Feature 4: Study Resources -->
+        <div class="feature-card">
+          <div class="feature-icon-box">📖</div>
+          <h3 class="feature-title">Study Resources</h3>
+          <p class="feature-text">Everything needed for JMA2501 in one place.</p>
+          <a href="units.html" class="feature-action-link" id="linkFeatureResources">Explore Units &rarr;</a>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Clean Professional Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <h3 class="footer-title">OPTIMIZATION TECHNIQUES</h3>
+      <p class="footer-meta">JMA2501 | Regulation 2023</p>
+      <div class="footer-quote">
+        "Study Smart • Practice Consistently • Achieve Your Goals"
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Optimization Techniques Study Hub. Built for College Students.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
